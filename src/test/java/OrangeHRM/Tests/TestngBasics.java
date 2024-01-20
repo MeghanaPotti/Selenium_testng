@@ -22,6 +22,11 @@ public class TestngBasics {
     public void beforeClass() {
         System.out.println("Before Class");
     }
+    
+    @Test
+    public void beforeClass1() {
+        System.out.println("Test method1234567");
+    }
 
     // This method will run before each test method
     @BeforeMethod
